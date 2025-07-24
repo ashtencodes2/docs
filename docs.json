@@ -26,25 +26,23 @@
           {
             "group": "Setup",
             "pages": [
-              "setup/settings",
-              "setup/navigation"
+              "setup/first_power",
+              "setup/connect_dial",
+              "setup/connect_phone"
             ]
           },
           {
             "group": "Maintenance",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "maint/filter_swap",
+              "maint/condensate_tray"
             ]
           },
           {
             "group": "Help",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "help/faq",
+              "help/errors"
             ]
           }
         ]
@@ -95,7 +93,7 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
