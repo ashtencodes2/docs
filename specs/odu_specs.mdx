@@ -1,67 +1,122 @@
 ---
 title: "Technical Specs"
-description: "1) Warnings 
-2) Parts List, Materials Included, Necessary Tools
-3) Spacing & Orientation Requirements for Layout
-4) Mounting Instructions
-5) Startup Instructions
+description: "Technical specification sheet for the outdoor unit.
 "
 ---
 
-## Setting up New
+## Cooling (Outdoor Temp)
 
-Get your documentation site up and running in minutes.
+|                          | 95°F   | 105°F  | 115°F  |
+|--------------------------|--------|--------|--------|
+| Maximum (BTU/hr)         | 14,000 | 13,000 | 12,000 |
+| Nominal (BTU/hr)         | 12,000 | 11,200 | 10,700 |
+| Minimum (BTU/hr)         | 3,700  | 3,700  | 3,700  |
+| Input Power (W)          | 902    | 1,005  | 1,130  |
+| Efficiency (COP)         | 3.34   | 2.91   | 2.18   |
+| Moisture Removal (Pts/hr)| 1.9    | 1.7    | 1.4    |
 
-<Card title="Start here" icon="rocket" horizontal href="/quickstart">
-  Follow our three step quickstart guide.
-</Card>
+---
 
-## Make it yours
+## Heating (Outdoor Temp)
 
-Design a docs site that looks great and empowers your users.
+|                          | 40°F   | 5°F    | -15°F  |
+|--------------------------|--------|--------|--------|
+| Maximum (BTU/hr)         | 14,500 | 11,700 | 9,100  |
+| Nominal (BTU/hr)         | 12,000 | 10,300 | 8,500  |
+| Minimum (BTU/hr)         | 3,700  | 3,700  | 3,700  |
+| Input Power (W)          | 802    | 1,022  | 1,199  |
+| Efficiency (COP)         | 3.44   | 2.47   | 1.88   |
 
-<Columns cols={2}>
-  <Card title="Edit locally" icon="pen-to-square" href="/development">
-    Edit your docs locally and preview them in real time.
-  </Card>
+---
 
-  <Card title="Customize your site" icon="palette" href="/essentials/settings">
-    Customize the design and colors of your site to match your brand.
-  </Card>
+## Airflow & Sound
 
-  <Card title="Set up navigation" icon="map" href="/essentials/navigation">
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
+| Property         | Value         |
+|------------------|---------------|
+| Type             | Axial         |
+| CFM              | 220 - 450     |
+| ERV Connection   | 7″ Diameter   |
+| dB(A)            | 28 - 55       |
 
-  <Card title="API documentation" icon="terminal" href="/api-reference/introduction">
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
+---
 
-## Create beautiful pages
+## Dimensions
 
-Everything you need to create world-class documentation.
+| Property | Value   |
+|----------|---------|
+| Height   | 1100mm  |
+| Width    | 550mm   |
+| Depth    | 220mm   |
 
-<Columns cols={2}>
-  <Card title="Write with MDX" icon="pen-fancy" href="/essentials/markdown">
-    Use MDX to style your docs pages.
-  </Card>
+---
 
-  <Card title="Code samples" icon="code" href="/essentials/code">
-    Add sample code to demonstrate how to use your product.
-  </Card>
+## Controls
 
-  <Card title="Images" icon="image" href="/essentials/images">
-    Display images and other media.
-  </Card>
+| Feature   | Description                      |
+|-----------|----------------------------------|
+| WiFi      | 2.5 / 5GHz                       |
+| Bluetooth | Available with smartphone app    |
+| WiFi/IR   | Available with dial              |
 
-  <Card title="Reusable snippets" icon="recycle" href="/essentials/reusable-snippets">
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
+---
 
-## Need inspiration?
+## Modes
 
-<Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
-  Browse our showcase of exceptional documentation sites.
-</Card>
+| Function  | Description                            |
+|-----------|----------------------------------------|
+| Operation | Cool, Heat, Dehumidify, Fresh Air      |
+| Timers    | Configurable on panel/app              |
+
+---
+
+## Compressor
+
+| Property    | Value               |
+|-------------|---------------------|
+| Type        | Variable Twin Rotary|
+| Refrigerant | R32, 21.4 oz        |
+| Oil         | FW68S               |
+
+---
+
+## Electrical
+
+| Specification         | Value                      |
+|------------------------|----------------------------|
+| Volt Range             | 208–230V                   |
+| Hz/Phase               | 50/60Hz Single Phase       |
+| Power Supply           | LCDI Cord or Hardwire      |
+| Power Factor           | 0.94                       |
+| Input Power (standby)  | 10 W                       |
+| Input Power (off)      | 1.0 W                      |
+
+---
+
+## Motors
+
+| Component               | Value  |
+|-------------------------|--------|
+| Compressor RLA          | 6.4    |
+| Compressor LRA          | 10.6   |
+| Outdoor (x2) (W, max)   | 60W    |
+| Outdoor Fan Voltage     | 24V    |
+| Outdoor F.L.A.          | 2.5    |
+
+---
+
+## Circuit Breaker
+
+| Property                  | Value         |
+|---------------------------|---------------|
+| MCA - 10                  | 10            |
+| Recommended Breaker Size  | 15A           |
+| MOCP                      | 20            |
+
+---
+
+## LCDI Power Cord
+
+| Property   | Value            |
+|------------|------------------|
+| Amps       | 15               |
+| Plug Type  | Region Dependent |
