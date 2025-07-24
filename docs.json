@@ -11,25 +11,27 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guide",
+        "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Installation",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "installation/idu_mount",
+              "installation/odu_mount",
+              "installation/electrical",
+              "installation/hydronics",
+              "installation/dial_mount"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Setup",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "setup/settings",
+              "setup/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Maintenance",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -38,11 +40,34 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Help",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
+            ]
+          }
+        ]
+      },
+            {
+        "tab": "Specs",
+        "groups": [
+          {
+            "group": "Indoor Unit",
+            "pages": [
+              "specs/idu_specs"
+            ]
+          },
+          {
+            "group": "Outdoor Unit",
+            "pages": [
+              "specs/odu_specs"
+            ]
+          },
+          {
+            "group": "Standalone ERV",
+            "pages": [
+              "specs/erv_specs"
             ]
           }
         ]
@@ -76,7 +101,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "help@normallab.co"
+        "href": "https://help@normallab.co"
       }
     ],
     "primary": {
