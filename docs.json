@@ -19,8 +19,14 @@
               "installation/idu_mount",
               "installation/odu_mount",
               "installation/electrical",
-              "installation/hydronics",
-              "installation/dial_mount"
+              "installation/hydronics"
+            ]
+          },
+          {
+            "group": "Thermostat",
+            "pages": [
+              "thermostat/thermostat_mount",
+              "thermostat/thermostat_power"
             ]
           },
           {
