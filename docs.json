@@ -14,6 +14,13 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "Overview",
+            "pages": [
+              "overview/welcome",
+              "overview/product_overview"
+            ]
+          },
+          {
             "group": "Installation",
             "pages": [
               "installation/idu_mount",
