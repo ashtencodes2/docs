@@ -16,7 +16,8 @@
           {
             "group": "Overview",
             "pages": [
-              "overview/product_overview"
+              "overview/product_overview",
+              "overview/system_overview"
             ]
           },
           {
