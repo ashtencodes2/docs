@@ -47,6 +47,7 @@
           {
             "group": "Maintenance",
             "pages": [
+              "maint/airform_care",
               "maint/filter_swap",
               "maint/condensate_tray"
             ]
