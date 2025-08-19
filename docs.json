@@ -26,8 +26,7 @@
               "installation/idu_mount",
               "installation/odu_mount_wall",
               "installation/odu_mount_floor",
-              "installation/electrical",
-              "installation/hydronics"
+              "installation/electrical"
             ]
           },
           {
@@ -41,6 +40,7 @@
             "group": "Setup",
             "pages": [
               "setup/first_power",
+              "setup/hydronics",
               "setup/connect_dial",
               "setup/connect_phone"
             ]
