@@ -41,8 +41,7 @@
             "pages": [
               "setup/first_power",
               "setup/hydronics",
-              "setup/connect_dial",
-              "setup/connect_phone"
+              "setup/run_airform"
             ]
           },
           {
