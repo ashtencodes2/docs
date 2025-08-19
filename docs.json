@@ -24,7 +24,8 @@
             "group": "Installation",
             "pages": [
               "installation/idu_mount",
-              "installation/odu_mount",
+              "installation/odu_mount_wall",
+              "installation/odu_mount_floor",
               "installation/electrical",
               "installation/hydronics"
             ]
