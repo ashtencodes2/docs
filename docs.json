@@ -16,7 +16,6 @@
           {
             "group": "Overview",
             "pages": [
-              "overview/welcome",
               "overview/product_overview"
             ]
           },
